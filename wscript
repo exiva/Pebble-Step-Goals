@@ -1,10 +1,3 @@
-
-#
-# This file is the default set of rules to compile a Pebble project.
-#
-# Feel free to customize this to your needs.
-#
-
 import os.path
 
 top = '.'
@@ -38,4 +31,4 @@ def build(ctx):
             binaries.append({'platform': p, 'app_elf': app_elf})
 
     ctx.set_group('bundle')
-    ctx.pbl_bundle(binaries=binaries, js=ctx.path.ant_glob('src/js/**/*.js'))
+    ctx.pbl_bundle(binaries=binaries)

@@ -1,18 +1,26 @@
 {
   "uuid": "33899493-afd7-4b94-8d6e-110bd390dbe0",
-  "shortName": "StepGoal",
-  "longName": "StepGoal",
-  "companyName": "MakeAwesomeHappen",
-  "versionLabel": "1.0",
+  "shortName": "Step Goals",
+  "longName": "Step Goals",
+  "companyName": "Travis La Marr",
+  "versionLabel": "0.0",
   "sdkVersion": "3",
-  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "targetPlatforms": ["basalt", "chalk"],
+  "capabilities": ["health"],
   "watchapp": {
     "watchface": false
   },
   "appKeys": {
-    "dummy": 0
+    "GOAL": 0
   },
   "resources": {
-    "media": []
+    "media": [
+      {
+        "file": "images/trophy.png",
+        "name": "IMAGE_TROPHY",
+        "type": "bitmap",
+        "storageOptimization": "memory"
+      }
+    ]
   }
 }
