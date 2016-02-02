@@ -3,7 +3,7 @@
   "shortName": "Step Goals",
   "longName": "Step Goals",
   "companyName": "Travis La Marr",
-  "versionLabel": "0.0",
+  "versionLabel": "0.2",
   "sdkVersion": "3",
   "targetPlatforms": ["basalt", "chalk"],
   "capabilities": ["health"],
